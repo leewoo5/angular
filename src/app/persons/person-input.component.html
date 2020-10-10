@@ -1,0 +1,6 @@
+<label for="name">Name</label>
+<!--value="string" 태그에 값 설정-->
+<!--[value]="calculate" 태그에 계산된 값 설정-->
+<!--#personNameEl html 태그에 #으로 태깅을하고 태그명.value를 통해 값을 가져올 수 있다. -->
+<input type="text" id="name" [(ngModel)]="enteredPersonName">
+<button (click)="onCreatePerson()">Create</button>
